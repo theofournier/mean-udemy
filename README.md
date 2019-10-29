@@ -1,27 +1,32 @@
 # MeanUdemy
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.0.
+Course complete on Udemy : https://www.udemy.com/course/angular-2-and-nodejs-the-practical-guide/
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+### MongoDB
 
-## Code scaffolding
+Install MongoDB locally and create a database called 'mean-udemy'.
+Launch MongoDB server on port 27017.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Install
 
-## Build
+To install packages for Back-End and Front-End, launch
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+```
+npm install
+```
 
-## Running unit tests
+### Start servers
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- To start Angular server on port 4200
 
-## Running end-to-end tests
+```
+ng serve
+```
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+- To start Express server on port 3000
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+```
+npm run start:server
+```
